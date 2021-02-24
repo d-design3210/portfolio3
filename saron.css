@@ -1,0 +1,461 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{
+  text-size-adjust:100% ;
+  overflow-x: hidden;
+  font-family:'vdl-v7marugothic', sans-serif ;
+  background-color: white;
+  color: #000;
+  font-weight: 100;
+}
+
+h1{
+  font-weight: 100;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: 100;
+}
+
+h3{
+  font-weight: 100;
+}
+
+p{
+  font-size: 12px;
+  line-height: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.topber{
+  width: 100%;
+  height: 50px;
+  background-color:white;
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+  z-index: 3;
+}
+
+.fv img{
+  height: 100%;
+  width: 100%;
+}
+
+.top-contents{
+  padding-top: 10px;
+}
+
+.top-contents h1{
+  float: left;
+  font-size: 30.21px;
+  margin-left: 16%;
+}
+
+.top-menu{
+  float: right;
+  display: flex;
+  padding-right: 16%;
+ 
+}
+
+.top-menu ul{
+  display: flex;
+  margin-top: 10px;
+}
+
+.top-menu li{
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.top-tel{
+  margin-left: 60px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.top-icons .fab{
+  float: left;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.policy-wrapper{
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 57px;
+
+}
+
+.policy-left{
+  float: left;
+}
+
+.policy-heading p{
+  margin-bottom: 80px;
+}
+
+.policy-heading h1{
+  font-size: 53.4px;
+  margin-bottom: 26px;
+}
+
+.policy-contents{
+  float: left;
+  margin-bottom: 20px;
+
+}
+
+.policy-image{
+  float: right;
+}
+
+.policy-image img{
+  width: 305px;
+  height: 444px;
+  margin-top: 30px;
+}
+
+.policy-area{
+  display: flex;
+}
+
+.policy-number{
+  padding-right: 117px;
+    position: relative;
+}
+
+.policy-number p{
+  margin-bottom:80px;
+}
+
+.policy-number p::after{
+  display: block;
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  background: #A1B8C9;
+  width: 90px;
+  height: 0.5px;
+} 
+
+.policy-message p{
+  margin-bottom: 67px;
+}
+
+.menu-image img{
+  margin:  0 auto;
+  width: 100%;
+}
+
+.menu-wrapper{
+  width: 100%;
+}
+
+.heading{
+  font-size: 53.4px;
+}
+
+
+.menu-heading{
+  text-align: center;
+  margin:30px 0 30px 0;
+}
+
+.menu-wrapper div{
+  font-size: 12px;
+}
+
+.menu-box-heading{
+  border-bottom: 4px double #999999;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-box{
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.menu-box-cild{
+  width: 430px;
+  margin-bottom: 20px;
+}
+
+.menu-box-cild ul li{
+  display:flex ;
+  vertical-align: baseline;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.staff-wrappre{
+  width: 100%;
+}
+
+.staff-heading{
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+}
+
+
+.staff-contents{
+  margin: 0 auto;
+  width: 900px;
+  position: relative;
+}
+
+.stuff-photo img{
+  width: 100%;
+  padding-top: 30px;
+  position: relative;
+  top:30px;
+}
+
+.staff-visible{
+  position: absolute;
+  content: '';
+  background-color: #FBB03B;
+  opacity: 0.2;
+  width: 78%;
+  height: 1100px;
+}
+
+.list-staff{
+  display: flex;
+  justify-content: space-between;
+  flex-flow:row wrap;
+  width: 100%;
+}
+
+.list-staff li{
+  display: flex;
+  width: 450px;
+  height: 260px;
+  justify-content: space-between;
+}
+
+.list-staff .manager{
+  height: 460px;
+}
+
+.list-staff .stylist{
+  margin-top: 250px;
+}
+
+.position{
+  font-size: 12px;
+  opacity: 0.5;
+}
+.name-eg{
+  font-size: 24px;
+}
+.name-ja{
+  font-size: 21px;
+}
+
+.personal h3{
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.personal{
+  padding-left: 25px;
+}
+
+
+.access-wrapper{
+  width: 100%;
+  padding-top: 200px;
+}
+
+.ggmap{
+  padding-bottom: 55px;
+}
+
+.access-wrapper h1{
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.access-continer{
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+
+
+.access-contents ul {
+  width: 720px;
+  margin: 0 auto;
+  border-top: 0.25px solid #999;
+}
+
+.access-contents li{
+  display: flex;
+  border-bottom:0.25px solid #999 ;
+  box-sizing: border-box;
+  padding: 20px 0 20px 0;
+  line-height: 20px;
+}
+
+.access-contents li .title{
+  width: 272px;
+}
+
+.access-contents li .contents{
+  width: 438px;
+}
+
+.footer-wrapper{
+  width: 100%;
+}
+
+.footer-continer{
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-contents{
+  display: flex;
+  width: 720px; ;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.footer-contents h1{
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+.footer-icons{
+  font-size: 32px;
+}
+
+.footer-nav h3{
+  font-size: 20px;
+  padding-bottom: 40px;
+
+}
